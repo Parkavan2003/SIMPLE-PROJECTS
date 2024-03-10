@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Typing Effect Text</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div class="container">
+        <h1>I'm a <span class="text"></span></h1>
+    </div>
+    
+    <!--Import TYPESCRIPT CDN-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".text",{
+            strings : ["Web Developer","Freelancer","Youtuber"],
+            typeSpeed : 150,
+            backSpeed : 70,
+            loop : true
+        })
+    </script>
+  
+  </body>
+</html>
